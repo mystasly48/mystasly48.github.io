@@ -1,111 +1,164 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="This website is mostly mystasly's profile.">
-  <meta name="author" content="mystasly">
-  <link rel="icon" href="../image/favicon.ico">
-  <title>PC - maisu.xyz</title>
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <link href="../css/cover.css" rel="stylesheet">
-  <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- the above 3 meta tags must come first in the head -->
+    <meta name="description" content="maisu's profile">
+    <meta name="author" content="maisu">
+    <link rel="icon" href="../image/favicon.ico">
+
+    <title>PC - maisu.xyz</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
   </head>
+
   <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">maisu.xyz</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><a href="../">Home</a></li>
-                  <li><a href="../about/">About</a></li>
-                  <li><a href="../work/">Work</a></li>
-                  <li><a href="../game/">Game</a></li>
-                  <li class="active"><a href="">PC</a></li>
-                  <li><a href="../link/">Link</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <div class="inner cover">
-            <h1 class="cover-heading">僕のパソコン</h1>
-            <table class="table table-bordered table-condensed">
-              <tbody>
-                <tr>
-                  <td class="col-md-3">OS</td>
-                  <td>Windows 10 Home 64bit</td>
-                </tr>
-                <tr>
-                  <td>CPU</td>
-                  <td>Intel Core i5-3570K</td>
-                </tr>
-                <tr>
-                  <td>GPU</td>
-                  <td>GeForce GTX550Ti</td>
-                </tr>
-                <tr>
-                  <td>RAM</td>
-                  <td>12GB (2GBx2, 4GBx2)</td>
-                </tr>
-                <tr>
-                  <td>HDD</td>
-                  <td>2.5TB (2TB, 500GB)</td>
-                </tr>
-                <tr>
-                  <td>Power</td>
-                  <td>550W</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="inner cover">
-            <h1 class="cover-heading">周辺機器</h1>
-            <table class="table table-bordered table-condensed">
-              <tbody>
-                <tr>
-                  <td class="col-md-3">キーボード</td>
-                  <td>Razer BlackWidow RZ03-00392300-R3J1</td>
-                </tr>
-                <tr>
-                  <td>マウス</td>
-                  <td>Steelseries Rival 62271</td>
-                </tr>
-                <tr>
-                  <td>マウスパッド</td>
-                  <td>Steelseries QCK 63004</td>
-                </tr>
-                <tr>
-                  <td>マイク</td>
-                  <td>Sony PCV80U</td>
-                </tr>
-                <tr>
-                  <td>モニタ 1</td>
-                  <td>Mitsubishi RDT234WLM</td>
-                </tr>
-                <tr>
-                  <td>モニタ 2</td>
-                  <td>I-ODATA LCD-AD191X3</td>
-                </tr>
-                <tr>
-                  <td>モニタ 3</td>
-                  <td>DELL SP1908FPM</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Copyright(C) 2015 <a href="#">maisu.xyz</a> All Rights Reserved.</p>
-            </div>
-          </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">maisu.xyz</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../">Home</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="../work/">Work</a></li>
+            <li><a href="../game/">Game</a></li>
+            <li class="active"><a href="#">PC</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://blog.maisu.xyz/" target="blank">Blog</a></li>
+                <li><a href="https://www.youtube.com/user/mutsumi307" target="blank">YouTube</a></li>
+                <li><a href="http://www.twitch.tv/mystasly48/" target="blank">Twitch</a></li>
+                <li><a href="https://github.com/mystasly48" target="blank">GitHub</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="http://steamcommunity.com/id/mystasly48/" target="blank">Steam</a></li>
+                <li><a href="http://battlelog.battlefield.com/bf4/user/mystasly48/" target="blank">Battlelog</a></li>
+                <li><a href="http://ja.socialclub.rockstargames.com/member/mystasly48" target="blank">Social Club</a></li>
+                <li><a href="https://account.xbox.com/ja-JP/Profile?gamerTag=Mystasly" target="blank">Xbox Live</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="http://www.amazon.co.jp/?_encoding=UTF8&tag=mystasly48-22" target="blank">Amazon Associates</a></li>
+                <li><a href="https://onedrive.live.com/?invref=88ede03091577e11&invsrc=90" target="blank">OneDrive Referral</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Twitter</li>
+                <li><a href="https://twitter.com/30msl" target="blank">30msl</a></li>
+                <li><a href="https://twitter.com/60msl" target="blank">60msl</a></li>
+                <li><a href="https://twitter.com/90msl" target="blank">90msl</a></li>
+                <li><a href="https://twitter.com/120msl" target="blank">120msl</a></li>
+                <li><a href="https://twitter.com/150msl" target="blank">150msl</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">日本語</a></li>
+            <li><a href="../english/pc/">English</a></li>
+          </ul>
         </div>
       </div>
+    </nav>
+
+    <!-- page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>僕のパソコン</h1>
+      </div>
+      
+      <h2>構成</h2>
+      <table class="table table-bordered table-maisu">
+        <tbody>
+          <tr>
+            <th class="col-md-2">OS</th>
+            <td class="col-md-8">Windows 10 Home 64bit</td>
+          </tr>
+          <tr>
+            <th>CPU</th>
+            <td>Intel Core i5-3570K</td>
+          </tr>
+          <tr>
+            <th>GPU</th>
+            <td>NVIDIA GeForce GTX550Ti</td>
+          </tr>
+          <tr>
+            <th>RAM</th>
+            <td>12GB (2GBx2, 4GBx2)</td>
+          </tr>
+          <tr>
+            <th>HDD</th>
+            <td>2.5TB (2TB, 500GB)</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <h2>周辺機器</h2>
+      <table class="table table-bordered table-maisu">
+        <tbody>
+          <tr>
+            <th class="col-md-2">キーボード</th>
+            <td class="col-md-8">Razer BlackWidow 2013-JP</td>
+          </tr>
+          <tr>
+            <th>マウス</th>
+            <td>SteelSeries Rival 300</td>
+          </tr>
+          <tr>
+            <th>マウスパッド</th>
+            <td>SteelSeries QCK</td>
+          </tr>
+          <tr>
+            <th>ヘッドセット</th>
+            <td>Logicool G230</td>
+          </tr>
+          <tr>
+            <th>コントローラー</th>
+            <td>Microsoft Xbox 360 Controller for Windows</td>
+          </tr>
+          <tr>
+            <th>USB ハブ</th>
+            <td>ORICO 7 Port USB 3.0 HUB</td>
+          </tr>
+          <tr>
+            <th>モニタ１</th>
+            <td>Mitsubishi RDT234WLM</td>
+          </tr>
+          <tr>
+            <th>モニタ２</th>
+            <td>I-O DATA LCD-AD191X3</td>
+          </tr>
+          <tr>
+            <th>モニタ３</th>
+            <td>I-O DATA LCD-AD192X</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-    <script src="../js/jquery.min.js"></script>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright(C) 2016 <a href="#">maisu.xyz</a> All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- will the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../js/jquery.min.js"><\/script>')</script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
