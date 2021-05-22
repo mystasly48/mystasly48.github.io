@@ -22,20 +22,13 @@ body {
   text-align: center;
 }
 
-sup {
-  font-weight: 200;
-  font-size: 16px;
-}
-
 h1.name {
   margin: 0 auto;
-  font-size: 48px;
   font-weight: 900;
 }
 
 h2.title {
   margin: 5px;
-  font-size: 32px;
   font-weight: 600;
 }
 
@@ -44,8 +37,7 @@ h2.title {
   margin-top: 30px;
   text-align: left;
   max-width: 1000px;
-  font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: "Rounded Mplus 1c";
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -61,13 +53,11 @@ h2.title {
 }
 
 .content h3 {
-  font-size: 28px;
   font-weight: 500;
   margin: 15px 0 15px 0;
 }
 
 .content h4 {
-  font-size: 24px;
   font-weight: 400;
   margin: 5px 0 5px 0;
 }
@@ -88,7 +78,6 @@ h2.title {
   border-radius: var(--radius);
 
   display: inline-block;
-  /* border: 4px solid #000; */
 }
 
 .square-icon {
@@ -100,7 +89,6 @@ h2.title {
   border-radius: 10px;
 
   display: inline-block;
-  /* border: 4px solid #000; */
 }
 
 footer {
@@ -115,7 +103,6 @@ footer {
 }
 
 header {
-  font-size: 24px;
   font-weight: 100;
   margin: 0;
   width: 100%;
@@ -154,4 +141,85 @@ header a {
   emojione mozilla,
   twemoji mozilla,
   segoe ui symbol;
+}
+
+/* 小画面 */
+@media only screen and (max-width: 650px) {
+  h1.name {
+    font-size: 16px;
+  }
+
+  h2.title {
+    font-size: 10px;
+  }
+
+  .content {
+    font-size: 8px;
+  }
+
+  .content h3 {
+    font-size: 9px;
+  }
+
+  .content h4 {
+    font-size: 8px;
+  }
+
+  header {
+    font-size: 8px;
+  }
+}
+
+/* 中画面 */
+@media only screen and (max-width: 960px) {
+  h1.name {
+    font-size: 32px;
+  }
+
+  h2.title {
+    font-size: 21px;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+
+  .content h3 {
+    font-size: 18px;
+  }
+
+  .content h4 {
+    font-size: 16px;
+  }
+
+  header {
+    font-size: 16px;
+  }
+}
+
+/* 大画面 */
+@media only screen and (min-width: 961px) {
+  h1.name {
+    font-size: 48px;
+  }
+
+  h2.title {
+    font-size: 32px;
+  }
+
+  .content {
+    font-size: 24px;
+  }
+
+  .content h3 {
+    font-size: 28px;
+  }
+
+  .content h4 {
+    font-size: 24px;
+  }
+
+  header {
+    font-size: 24px;
+  }
 }
