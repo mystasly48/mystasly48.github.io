@@ -68,27 +68,14 @@ h2.title {
 
 .circular-icon {
   margin: 10px;
-
-  --diameter: 200px;
-  --radius: calc(var(--diameter) / 2);
-
-  width: var(--diameter);
-  height: var(--diameter);
-
-  border-radius: var(--radius);
-
   display: inline-block;
+  border-radius: 50%;
 }
 
 .square-icon {
   margin: 10px;
-
-  width: 200px;
-  height: 200px;
-
-  border-radius: 10px;
-
   display: inline-block;
+  border-radius: 10px;
 }
 
 footer {
@@ -143,35 +130,8 @@ header a {
   segoe ui symbol;
 }
 
-/* 小画面 */
-@media only screen and (max-width: 650px) {
-  h1.name {
-    font-size: 16px;
-  }
-
-  h2.title {
-    font-size: 10px;
-  }
-
-  .content {
-    font-size: 8px;
-  }
-
-  .content h3 {
-    font-size: 9px;
-  }
-
-  .content h4 {
-    font-size: 8px;
-  }
-
-  header {
-    font-size: 8px;
-  }
-}
-
-/* 中画面 */
-@media only screen and (max-width: 960px) {
+/* スマホ・タブレット */
+@media only screen and (max-width: 651px) {
   h1.name {
     font-size: 32px;
   }
@@ -195,9 +155,13 @@ header a {
   header {
     font-size: 16px;
   }
+
+  .circular-icon, .square-icon {
+    width: 150px;
+  }
 }
 
-/* 大画面 */
+/* PC・タブレット */
 @media only screen and (min-width: 961px) {
   h1.name {
     font-size: 48px;
@@ -221,5 +185,9 @@ header a {
 
   header {
     font-size: 24px;
+  }
+
+  .circular-icon, .square-icon {
+    width: 200px;
   }
 }
